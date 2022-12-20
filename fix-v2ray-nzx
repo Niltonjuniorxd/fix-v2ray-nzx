@@ -17,7 +17,7 @@ echo -ne "\033[1;36mAGUARDE\033[1;31m-\033[1;37m["
 while true; do
    for((i=0; i<18; i++)); do
    echo -ne "\033[1;31m#"
-   sleep 0.1s
+   sleep 5s
    done
    [[ -e $HOME/fim ]] && rm $HOME/fim && break
    echo -e "\033[1;37m]"
@@ -297,3 +297,7 @@ main() {
 main
 }
 fun_bar 'v2rayssa'
+
+echo -e "\033[1;37mINSTALADO COM SUCESSO MENU : v2ray " 
+echo -e "" 
+echo -e "\033[1;37mCASO UTILIZE SCRIPTS COM MENU V2RAY JA ESTARA FUNCIONANDO" 
